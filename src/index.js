@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import axe from "react-axe";
 import { Provider } from "react-redux";
 import GlobalStore from "./Redux/Store/GlobalStore";
@@ -15,11 +15,11 @@ if (process.env.NODE_ENV !== "production") {
 
 ReactDOM.render(
   <StrictMode>
-    <Router>
+    <HashRouter basename={process.env.PUBLIC_URL}>
     <Provider store={GlobalStore}>
       <App />
     </Provider>
-    </Router>
+    </HashRouter>
   </StrictMode>,
   document.getElementById("root")
 );

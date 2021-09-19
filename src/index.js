@@ -8,10 +8,23 @@ import axe from "react-axe";
 import { Provider } from "react-redux";
 import GlobalStore from "./Redux/Store/GlobalStore";
 import "bootstrap/dist/css/bootstrap.min.css";
+import * as Sentry from "@sentry/react";
+import { Integrations } from "@sentry/tracing";
 
 if (process.env.NODE_ENV !== "production") {
   axe(React, ReactDOM, 1000);
 }
+
+
+Sentry.init({
+  dsn: "https://a175e9570e024fcbbab966dd5a2d5af6@o975338.ingest.sentry.io/5966736",
+  integrations: [new Integrations.BrowserTracing()],
+
+  // Set tracesSampleRate to 1.0 to capture 100%
+  // of transactions for performance monitoring.
+  // We recommend adjusting this value in production
+  tracesSampleRate: 1.0,
+});
 
 ReactDOM.render(
   <StrictMode>

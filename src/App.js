@@ -33,8 +33,12 @@ const App = () => {
   //   };
   // }, []);
   // console.log(currentUser);
+  const throwError = () =>{
+    throw new Error('sentry test error')
+  }
   return (
     <div className="App">
+     <button onClick={throwError}>Break the world</button>;
       <NavBar currentUser={currentUser} />
       <Switch>
         <Route path="/signin" component={SignIn_SignUp_Page} />

@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/pro-organiser-app-redux/static/css/main.08c84330.chunk.css",
-    "main.js": "/pro-organiser-app-redux/static/js/main.aa129cde.chunk.js",
-    "main.js.map": "/pro-organiser-app-redux/static/js/main.aa129cde.chunk.js.map",
+    "main.css": "/pro-organiser-app-redux/static/css/main.273a669f.chunk.css",
+    "main.js": "/pro-organiser-app-redux/static/js/main.ea4a3904.chunk.js",
+    "main.js.map": "/pro-organiser-app-redux/static/js/main.ea4a3904.chunk.js.map",
     "runtime-main.js": "/pro-organiser-app-redux/static/js/runtime-main.5bc49af1.js",
     "runtime-main.js.map": "/pro-organiser-app-redux/static/js/runtime-main.5bc49af1.js.map",
-    "static/css/2.6e0e090b.chunk.css": "/pro-organiser-app-redux/static/css/2.6e0e090b.chunk.css",
-    "static/js/2.2de242a4.chunk.js": "/pro-organiser-app-redux/static/js/2.2de242a4.chunk.js",
-    "static/js/2.2de242a4.chunk.js.map": "/pro-organiser-app-redux/static/js/2.2de242a4.chunk.js.map",
+    "static/css/2.9e0c1759.chunk.css": "/pro-organiser-app-redux/static/css/2.9e0c1759.chunk.css",
+    "static/js/2.128f590c.chunk.js": "/pro-organiser-app-redux/static/js/2.128f590c.chunk.js",
+    "static/js/2.128f590c.chunk.js.map": "/pro-organiser-app-redux/static/js/2.128f590c.chunk.js.map",
     "index.html": "/pro-organiser-app-redux/index.html",
-    "precache-manifest.4aaa0a1eaaf34cdbc1a5839961937832.js": "/pro-organiser-app-redux/precache-manifest.4aaa0a1eaaf34cdbc1a5839961937832.js",
+    "precache-manifest.93a61928677dfe88fdd4d96328144fd9.js": "/pro-organiser-app-redux/precache-manifest.93a61928677dfe88fdd4d96328144fd9.js",
     "service-worker.js": "/pro-organiser-app-redux/service-worker.js",
-    "static/css/2.6e0e090b.chunk.css.map": "/pro-organiser-app-redux/static/css/2.6e0e090b.chunk.css.map",
-    "static/css/main.08c84330.chunk.css.map": "/pro-organiser-app-redux/static/css/main.08c84330.chunk.css.map",
-    "static/js/2.2de242a4.chunk.js.LICENSE.txt": "/pro-organiser-app-redux/static/js/2.2de242a4.chunk.js.LICENSE.txt",
+    "static/css/2.9e0c1759.chunk.css.map": "/pro-organiser-app-redux/static/css/2.9e0c1759.chunk.css.map",
+    "static/css/main.273a669f.chunk.css.map": "/pro-organiser-app-redux/static/css/main.273a669f.chunk.css.map",
+    "static/js/2.128f590c.chunk.js.LICENSE.txt": "/pro-organiser-app-redux/static/js/2.128f590c.chunk.js.LICENSE.txt",
     "static/media/stone.jpg": "/pro-organiser-app-redux/static/media/stone.1cc1da05.jpg",
     "static/media/user.png": "/pro-organiser-app-redux/static/media/user.27dd9c0a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5bc49af1.js",
-    "static/css/2.6e0e090b.chunk.css",
-    "static/js/2.2de242a4.chunk.js",
-    "static/css/main.08c84330.chunk.css",
-    "static/js/main.aa129cde.chunk.js"
+    "static/css/2.9e0c1759.chunk.css",
+    "static/js/2.128f590c.chunk.js",
+    "static/css/main.273a669f.chunk.css",
+    "static/js/main.ea4a3904.chunk.js"
   ]
 }

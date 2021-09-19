@@ -38,8 +38,9 @@ const App = () => {
   }
   return (
     <div className="App">
-     <button onClick={throwError}>Break the world</button>;
+     
       <NavBar currentUser={currentUser} />
+      
       <Switch>
         <Route path="/signin" component={SignIn_SignUp_Page} />
         <Route
@@ -64,6 +65,7 @@ const App = () => {
           }
         />
       </Switch>
+      <button onClick={throwError}>Break the world</button>
     </div>
   );
 };
